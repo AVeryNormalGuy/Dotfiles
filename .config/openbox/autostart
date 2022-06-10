@@ -1,0 +1,7 @@
+nitrogen --restore &
+tint2 &
+picom&
+nm-applet&
+volumeicon&
+icecat &
+nheko &
