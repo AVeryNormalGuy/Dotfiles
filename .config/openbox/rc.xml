@@ -212,14 +212,14 @@
         <command>rofi -show run</command>
       </action>
     </keybind>
-    <keybind key="W-f">
+    <keybind key="W-s">
       <action name="Execute">
-        <command>flameshot gui</command>
+	      <command>scrot -q 80 -s -f -z -e 'xclip -selection clipboard -t image/png -i $f; rm -rf $f'</command>
       </action>
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>icecat</command>
+        <command>librewolf</command>
       </action>
     </keybind>
     <keybind key="W-m">
@@ -227,6 +227,11 @@
         <command>nheko</command>
       </action>
     </keybind>
+    <keybind key="W-y">
+    <action name="Execute">
+        <command>webcord</command>
+    </action>
+</keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>alacritty</command>
