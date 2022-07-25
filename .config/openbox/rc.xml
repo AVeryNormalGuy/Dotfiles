@@ -219,7 +219,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>librewolf</command>
+        <command>abrowser</command>
       </action>
     </keybind>
     <keybind key="W-m">
